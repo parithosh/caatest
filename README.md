@@ -2,6 +2,18 @@
 
 `caatest` is a simple CLI tool for checking for the presence of CAA records and their validity based on a specific issuer name based on the [RFC 6844 Section 4](https://tools.ietf.org/html/rfc6844#section-4) algorithm as amended by errata 5065.
 
+## Installation
+### Pre-requisites
+
+- Install Go 1.16+
+- Add `$HOME/go/bin` to your PATH.
+
+### Install
+```bash
+# outside of an existing go module directory
+go install github.com/parithosh/caatest@latest
+```
+
 ## Usage
 
 ```
