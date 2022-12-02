@@ -1,4 +1,4 @@
-module rolandshoemaker/caatest/m/v2
+module parithosh/caatest/m/v1
 
 go 1.19
 
