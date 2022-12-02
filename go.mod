@@ -1,6 +1,6 @@
-module parithosh/caatest/m/v1
+module github.com/parithosh/caatest
 
-go 1.19
+go 1.17
 
 require (
 	github.com/miekg/dns v1.1.50 // indirect
